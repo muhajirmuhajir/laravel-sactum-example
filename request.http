@@ -1,0 +1,23 @@
+### register
+POST http://localhost:8000/api/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "muhajir3",
+    "email": "muhajir3@mail.com",
+    "password": "password",
+    "password_confirmation": "password"
+}
+
+
+### create new product
+POST http://localhost:8000/api/products
+Accept: application/json
+Authorization: Bearer 2|d3eUItwOR8uk5twByUY40EvBAzml7WJkwLo9bqF4
+Content-Type: application/json
+
+{
+    "name": "Sabun",
+    "price": 2000
+}
